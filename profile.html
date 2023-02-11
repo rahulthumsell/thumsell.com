@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <style>
+
+      /* Body and container styles */
+
+      body {
+
+        background-color: #f8f9fa;
+
+        font-family: 'Montserrat', sans-serif;
+
+      }
+ 
+       header {
+ 
+     background-color: #90EE90;
+
+      padding: 1em;
+
+      display: flex;
+
+      justify-content: flex-end;
+
+    }
+
+    header a {
+      color: #000000;
+      text-decoration: none;
+
+      padding: 0.5em 1em;
+
+      border: 1px solid #000000;
+
+      border-radius: 3px;
+    }
+      
+      .container {
+
+        max-width: 1200px;
+
+        margin: 0 auto;
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        align-items: center;
+
+        justify-content: center;
+
+      }
+
+
+      /* Profile section styles */
+ 
+     .profile {
+ 
+       width: 50%;
+
+        padding: 20px;
+
+        background-color: #ffffff;
+
+        box-shadow: 0px 0px 10px #cccccc;
+
+        border-radius: 10px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+      }
+
+
+      /* Profile picture styles */
+
+      .picture {
+
+        width: 200px;
+
+        height: 200px;
+
+        border-radius: 50%;
+
+        margin-right: 20px;
+
+      }
+
+
+      /* Profile information styles */
+
+      .info {
+
+        width: 50%;
+
+        text-align: center;
+
+        margin-left: 20px;
+
+      }
+
+
+      /* Profile name styles */
+ 
+     .name {
+
+        font-size: 24px;
+
+        font-weight: bold;
+
+        margin-bottom: 10px;
+
+        text-transform: uppercase;
+
+      }
+
+
+/* Work with clients section styles */
+
+      .clients {
+
+        width: 100%;
+
+        padding: 20px;
+
+        background-color: #ffffff;
+
+        box-shadow: 0px 0px 10px #cccccc;
+
+        border-radius: 10px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        margin-top: 50px;
+
+        flex-wrap: wrap;
+
+      }
+
+
+      /* Client logo styles */
+
+      .client-logo {
+
+        width: 100px;
+
+        height: 100px;
+
+        border-radius: 50%;
+
+        margin: 20px;
+
+        transition: 0.3s ease-in-out;
+
+      }
+      /* Client logo hover effect */
+
+      .client-logo:hover {
+
+        transform: scale(1.2);
+
+        box-shadow: 0px 0px 10px #cccccc;
+
+      }
+
+
+      /* Interaction section styles */
+
+      .interaction {
+ 
+       width: 100%;
+
+        margin-top: 50px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+      }
+
+
+      /* Interaction button styles */
+ 
+     .interaction button {
+
+        padding: 10px 20px;
+
+        background-color: #007bff;
+
+        color: #ffffff;
+
+        border: none;
+
+        border-radius: 10px;
+
+        font-size: 18px;
+
+        cursor: pointer;
+
+        margin-right: 10px;
+
+      }
+
+ 
+     /* Rating section styles */
+
+.rating {
+ 
+       display: flex;
+
+        align-items: center;
+
+        margin-left: 10px;
+
+      }
+
+ 
+     /* Rating stars styles */
+
+      .rating .star {
+ 
+       color: #FFFFFF;
+
+        font-size: 20px;
+
+        cursor: pointer;
+
+      }
+
+
+      /* Active star styles */
+
+      .rating .star.active {
+
+        color: #ffc107;
+
+      }
+
+
+    .footer {
+      background-color: #90EE90;
+
+      padding: 2em;
+      text-align: center;
+    }
+    </style>
+
+  </head>
+
+<body style="margin:0; background-color:#CBC3E3;">
+ <header>
+    <a href="file:///C:/Users/RAHUL/Desktop/thumsell.htm">Back</a>
+
+  </header>
+
+    <div class="container">
+
+      <div class="profile">
+
+        <img class="picture" src="https://source.unsplash.com/random" alt="Profile Picture">
+
+        <div class="info">
+
+          <div class="name">Rahul Dutta</div>
+
+          <div>Web Developer</div>
+
+          <div>johndoe@example.com</div>
+
+        </div>
+
+
+         </div>
+
+      <div class="clients">
+
+          <div>
+
+          <img class="client-logo" src="https://source.unsplash.com/random" alt="Client 3 Logo">
+
+          <div>Client 3</div>
+
+        </div>
+
+        <div>
+
+          <img class="client-logo" src="https://source.unsplash.com/random" alt="Client 4 Logo">
+
+          <div>Client 4</div>
+
+        </div>
+
+ <div>
+
+          <img class="client-logo" src="https://source.unsplash.com/random" alt="Client 4 Logo">
+
+          <div>Client 5</div>
+
+        </div>
+
+
+      </div>
+
+      <div class="interaction">
+
+        <button>Message</button>
+ 
+       <div class="rating">
+
+          <i class="star">&#9733;</i>
+ 
+         <i class="star">&#9733;</i>
+
+          <i class="star">&#9733;</i>
+
+          <i class="star">&#9733;</i>
+
+          <i class="star">&#9733;</i>
+
+        </div>
+      </div>
+
+<br>    </div>
+ <div class="footer">
+
+    <h3>About Us</h3>
+
+    <p>We are a team of experienced professionals dedicated to providing 
+top-quality services to our clients. Our website offers a wide range of
+ products and services to meet all of your needs.</p>
+
+  </div>
+ </body>
+</html>
